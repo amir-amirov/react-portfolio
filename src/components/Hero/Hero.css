@@ -116,3 +116,14 @@
         margin: 15px 0px;
     }
 }
+
+@media (max-width: 500px){
+    .hero-avatar{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .hero-avatar img{
+        width: 80%;
+        object-fit: cover;
+    }
+}
