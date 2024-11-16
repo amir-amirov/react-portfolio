@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+    color: silver;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 120px 0 30px;
+}
+.title h2{
+    font-size: 32px;
+    color: gainsboro;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+
+/* -----media query----- */
+@media (max-width: 850px){
+    .title h2{
+        font-size: 24px;
+    }
+}
